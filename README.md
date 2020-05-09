@@ -16,13 +16,13 @@ Steps to do t-SNE on any dataset
 
 4.Feature scaling
 
-5.apply t-SNE and extract new components
+5.apply t-SNE and extract new  Principlecomponents
 
 from sklearn.manifold import TSNE
 t_sne=TSNE(n_components=2,random_state=0)
 
 ->-> n_components is the no of features obtained after t-SNE
-and join the new components with the orignal data
+and join the new components with the orignal data which makes easy to visualize in plotting.
 
 6.Plot the new components
 
